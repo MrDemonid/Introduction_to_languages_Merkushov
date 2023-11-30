@@ -6,8 +6,10 @@
 
 using System.Diagnostics;
 
+
 /*
     рекурсивная версия
+    Время выполнения приблизительно оценивается как O( ((1+sqrt(5))/2)^N )
 */
 int FibonachiReentrant(int n)
 {
